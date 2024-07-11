@@ -1,0 +1,226 @@
+.bg-custom {
+    background-color: #F5F4F0 !important;
+}
+/* .navbar-light{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+} */
+
+
+.navbar .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.navbar-custom {
+    padding: 1rem 2rem; /* Adjust padding to make the navbar taller */
+}
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+.navbar-brand:hover {
+    color: black;
+  }
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.bg-custom-box {
+    background-color: #F5F4F0 !important;
+    margin-top: 70px;
+    padding-top: 0;
+}
+.bg-custom-box img {
+    max-width: 100%;
+    max-height: 1000px;
+}
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.contact-text p{
+    margin: 2rem;
+}
+.contact-text h4{
+    margin-bottom: 1rem;
+}
+.contact-text h2{
+    margin-bottom: 0.5rem;
+}
+.btn-custom {
+    background-color: #F5F4F0;
+    color: #000000;
+    border: 1px solid #000000;
+} 
+.btn-custom:hover {
+    background-color: black;
+    color: #F5F4F0;
+}
+.col-4{
+    padding-left: 0;
+}
+.no-border {
+    border-radius: 0 !important;
+}
+.social-links a{
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.social-links i {
+    color: black;
+}
+.social-links .social-text {
+    color: #000000;
+    margin-left: 10px;
+}
+.form-select,
+.form-control {
+    background-color: transparent;
+    box-shadow: none;
+    transition: border-color 0.3s; /* Thêm chuyển đổi mượt mà */
+}
+.form-select:focus,
+.form-control:focus {
+    border-color: black; /* Thay đổi viền thành màu đen khi focus */
+    box-shadow: none; /* Loại bỏ bóng của Bootstrap */
+}
+.invalid {
+    border-color: red !important;
+}
+
+
+.introduction{
+    margin-top: 5%;
+    background-color: #f5f4f0; 
+  }
+.introduction img {
+    max-width: 100%;
+    height: auto;
+}  
+  .intro-text{
+    width: 100%;
+    font-family: Ano Regular;
+    padding: 40px 30px;
+    margin-top: 5%;
+  }
+  .heading-small h3{
+    text-align: center;
+    margin-top: 5%;
+  }
+  .heading-small h4{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 8%;
+  }
+  .text{
+    margin-top: 10%;
+    font-family: Ano Regular;
+  }
+  .elementor-widget-container {
+    text-align: center;
+    margin: 30px;
+}
+.elementor-headline {
+    font-size: 30px;
+    font-family: Ano;
+}
+.elementor-headline-text-wrapper {
+    display: inline-block;
+    position: relative;
+}
+.elementor-headline-dynamic-wrapper svg {
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    overflow: visible;
+    fill: none;
+    stroke: #d14900;
+    stroke-width: 16px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+.cauhoi1 {
+    padding: 10px 0px 10px 0px;
+    /* margin: 40px 580px; */
+    background-color:white;
+    font-family: Ano Black Wide;
+    text-align: center;
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    /* position: absolute; */
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.cauhoi ul{
+    list-style: none;
+    
+    
+}
+.flip.panel{
+    padding: 5px;
+text-align: center;
+background-color: #e5eecc;
+border: solid 1px #c3c3c3;
+    
+}
+.panel{
+    padding: 50px;
+display: none;
+}
+.containes{
+    text-align: center;
+}
+.containes h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    ;
+}
+.contacs{
+    text-align: center;
+    align-items: center;
+}
+.bot2{
+    text-align: center;
+}
+.col-md-3{
+    border:1px solid black;
+    /* background-color: white; */
+    
+}
+.col-md-3 a{
+    color: black;
+    
+}
+.row{
+    padding: 10px;
+}
+    
+
+    
+
+
+
+
+
